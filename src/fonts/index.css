@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Black.otf') format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Black Italic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Bold.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Bold Italic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Medium.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Medium Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Regular.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Regular Italic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Light.otf') format('opentype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Light Italic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Thin.otf') format('opentype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Grandis';
+  src: url('./Grandis Thin Italic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
