@@ -22,7 +22,7 @@ export default createGlobalStyle`
     width: 100%;
     font-size: 1.6rem;
 
-    background: ${({ theme }) => theme.COLORS.BACKGROUND_LIGHT};
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_DARK};
     color: ${({ theme }) => theme.COLORS.BLACK_900};
 
     -webkit-font-smoothing: antialiased;

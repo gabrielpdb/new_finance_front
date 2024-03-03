@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.button`
   border: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 1.2rem 2.4rem;
   border-radius: 0.8rem;
 
@@ -16,4 +16,10 @@ export const Container = styled.button`
         return theme.COLORS.BLACK_500
     }
   }};
+
+  color: ${({ theme }) => theme.COLORS.BLACK};
+
+  &:active {
+    filter: brightness(0.5);
+  }
 `

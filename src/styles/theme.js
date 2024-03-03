@@ -1,12 +1,13 @@
 export default {
   COLORS: {
     BLACK_900: '#0a0c0d',
-    BLACK_800: '#5E5E5E',
+    BLACK_800: '#2b2b2b',
+    BLACK_700: '#5E5E5E',
     BLACK_500: '#888888',
 
     BACKGROUND_LIGHT: '#f2f2f2',
     HEADER_LIGHT: '#e4f824',
-    BACKGROUND_DARK: '#292929',
+    BACKGROUND_DARK: '#171717',
     HEADER_DARK: '#e4f824',
 
     WHITE: '#f2f2f2',

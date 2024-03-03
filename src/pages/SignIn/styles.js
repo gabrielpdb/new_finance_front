@@ -1,16 +1,20 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 100%;
-  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  height: 80vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  .box {
-    padding: 3.6rem;
-    border-radius: 0.8rem;
+  img {
+    width: 80%;
+    margin-bottom: 4.8rem;
+  }
 
-    background: ${({ theme }) => theme.COLORS.BLACK_500};
+  form {
+    margin-bottom: 3.6rem;
   }
 `
