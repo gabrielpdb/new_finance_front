@@ -8,6 +8,8 @@ export const Container = styled.button`
 
   background: ${({ $type, theme }) => {
     switch ($type) {
+      case 'submit':
+        return theme.COLORS.FIT_GREEN
       case 'confirm':
         return theme.COLORS.FIT_GREEN
       case 'cancel':

@@ -11,6 +11,7 @@ export function Routes() {
   api.interceptors.response.use(
     response => response,
     error => {
+      console.log(error)
       if (error.response.data.message == 'Invalid JWT Token') {
         signOut()
         error.response.data.message = 'Sessão expirada, faça login novamente'
